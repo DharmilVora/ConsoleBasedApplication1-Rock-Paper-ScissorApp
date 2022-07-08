@@ -8,10 +8,10 @@ public class ConsoleApp1 {
         System.out.println("0.Rock\n1.Paper\n2.Scissor");
         Random r=new Random();
         int a=r.nextInt(3);
-        System.out.println("\nPlayer 1 Number is ::"+a);
         System.out.print("\nEnter Number for Player 2 ::");
         Scanner sc=new Scanner(System.in);
         int b=sc.nextInt();
+        System.out.println("\n\nPlayer 1 Number is ::"+a);
         System.out.println();
         switch(b)
         {
